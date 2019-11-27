@@ -40,7 +40,7 @@ main{
 	display:inline-block;
 	width:32px;
 	height:24px;
-	background-image:url('assets/arrow_down.svg'); 
+	background-image:url('assets/arrow_down.png'); 
 	background-size:cover;
 	cursor:pointer;
 }
