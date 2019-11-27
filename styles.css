@@ -78,16 +78,18 @@ main{
 }
 
 code{
-	display:block;
+	display:flex;
+	flex-direction:column;
 	font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
-	white-space: pre;
-	margin:10px 0 0;
+	margin:20px 0 20px;
 	padding:0 8px;
 	border-radius:3px;
 	background:#eff0f1
 }
 
-
+code div{
+	white-space: pre;
+}
 
 .darkbluetext{
 	color:#101094 
